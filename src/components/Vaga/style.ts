@@ -8,6 +8,15 @@ export const ContaineerLinha = styled.li`
   padding: 16px;
   transition: all ease 0.3s;
   border-radius: 8px;
+  &:hover {
+    background-color: ${theme.colors.primary};
+    color: ${theme.colors.secondary};
+  }
+  &:hover a {
+    border-color: ${theme.colors.primary};
+    background-color: ${theme.colors.secondary};
+    color: ${theme.colors.primary};
+  }
 `
 export const VagaTitulo = styled.h3`
   font-weight: bold;
